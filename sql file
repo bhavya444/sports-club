@@ -1,6 +1,43 @@
+
 CREATE TABLE users (
     id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
     username VARCHAR(50) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
+
+
+CREATE TABLE `athlete` (
+ `name` varchar(50) NOT NULL,
+ `age` varchar(50) NOT NULL,
+ `address` varchar(50) NOT NULL,
+ `contact` varchar(50) NOT NULL,
+ `game` varchar(50) NOT NULL,
+ `achievements` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+CREATE TABLE `individual` (
+ `name` varchar(50) NOT NULL,
+ `game` varchar(50) NOT NULL,
+ `represented` varchar(50) NOT NULL,
+ `venue` varchar(50) NOT NULL,
+ `year` varchar(50) NOT NULL,
+ `result` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+CREATE TABLE `team` (
+ `game` varchar(50) NOT NULL,
+ `represented` varchar(50) NOT NULL,
+ `venue` varchar(50) NOT NULL,
+ `year` varchar(50) NOT NULL,
+ `result` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+
+CREATE TABLE `yearofachieve` (
+ `year` varchar(20) NOT NULL,
+ `achievements` varchar(20) NOT NULL,
+ PRIMARY KEY (`year`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
