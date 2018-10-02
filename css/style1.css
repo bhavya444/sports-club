@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');/*--- Paragraph Font --*/
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed'); /*--- Headings Font --*/
+@import url('https://fonts.googleapis.com/css?family=Calligraffitti');
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
+@import url('https://fonts.googleapis.com/css?family=Jacques+Francois');
+* {
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+ body {
+	 background: #f0f0f0;
+	 color: #555;
+	 font-family:'Sedgwick Ave', cursive;
+	 line-height: 190%;
+	 text-align:  center;
+	text-transform:uppercase;
+ }
+
+ h3 {
+         font-family:'Sedgwick Ave', cursive;
+	 font-size:190%;
+	 padding: 5% 0%;
+
+ }
+ h4 {
+         font-family:'Sedgwick Ave', cursive;
+	 font-size: 170%;
+	 padding:5% 0%;
+ }
+
+ .one-third, aside, h5 {
+         font-family:'Jacques Francois', serif;
+	 font-size:120%;
+	 color:black;
+ }
+
+img {
+	max-width:100%;
+}
+
+header{
+	background :black;
+	height: 86px;
+	position:fixed;
+	z-index:1000;
+	width:100%;
+	opacity:0.9;
+	top:0;
+}
+
+#header-inner{
+	max-width:1200px;
+	margin: 0 auto;
+
+}
+#logo{
+	color:white;
+	float:left;
+	width:200px;
+	height:20px;
+	margin:10px;
+        font-size: 15px;
+        padding-top:22px;
+       
+	font-family:'Merienda One', cursive;
+}
+nav {
+	float:right;
+	padding:22px 20px 5px 5px;
+
+}
+#menu-icon{
+	background: url(icon.png) center;
+	width:40px;
+	height: 34px;
+	display:hidden;
+       
+}
+ul {
+	list-style: none;
+        
+
+}
+nav ul li{
+	font-family: sans-serif;
+	display:inline-block;
+	padding: 10px;
+	float:left;
+	font-size:16px;
+         
+}
+ nav ul li a{
+	 color:#f0f0f0;
+	 text-decoration:none;
+	 font-weight:700;
+         padding-right: 20px;
+         
+
+ }
+
+a:hover {
+	text-decoration:underline;
+
+}
+
+.current {
+	text-decoration:underline;
+
+}
+
+/* image slider */
+
+.slider {
+	magin-top:90px;
+        height: 800px;
+}
+
+.bx-controls{
+	display:none;
+}
+ 
+/* inner wrapper */
+
+#inner-wrapper {
+	max-width:1200px;
+	margin: 0 auto;
+}
+
+.one-third{
+	width:29%;
+	float:left;
+	margin:2%;
+}
+
+.circle{
+	width:150px;
+	height:150px;
+	background:black;
+	margin: 0 auto;
+	border-radius: 50%;
+
+}
+
+.one-third i{
+	color:#f0f0f0;
+	font-size: 555%;
+	padding: 20%;
+}
+
+p{
+	
+	text-align: justify;
+	text-transform: none;
+	font-size:125%;
+	padding:2%;
+}
+.clearfix{
+	clear:both;
+	padding:2%;
+}
+/* oval image */
+
+article{
+	float:left;
+	width:50%;
+	padding:4%;
+
+}
+
+
+
+aside {
+	float: right;
+	width:35%;
+	padding:2%;
+
+}
+
+aside h3 {
+	text-decoration:underline;
+}
+ .one-third img {
+	 padding:2%;
+ }
+
+ 
+.social li {
+	display:inline;
+}
+.social i {
+	font-size: 245%;
+	padding: 2% 5%;
+    color:#959595;
+}
+.social i:hover {
+	color: white;
+}
+
+h5 a:hover {
+	text-decoration:none;
+	color: blue;
+}
+/* 2nd footer */
+
+
+/* media queries */
+
+@media screen and (max-width:860px){
+	header {
+		position:absolute;
+	}
+	#menu-icon {
+		display:inline-block;
+	}
+	nav:hover ul {
+		display:block;
+	}
+	nav ul,nav:active ul {
+		display:none;
+		z-index:1000;
+		position:absolute;
+		background: black;;
+		width:50%;
+		padding:20px;
+		right:20px;
+		top:60px;
+		border:1px solid #fff;
+		border-radius: 4px 0 4px 4px;
+	}
+	nav li{
+		text-align:center;
+		width:100%;
+	}
+	.one-third {
+		width:100%;
+		margin:0;
+
+	}
+	.circle {
+		width:100px;
+		height:100px;
+
+	}
+	.one-third i{
+		font-size:360%;
+	}
+	article {
+		width:100%;
+		padding:0;
+		margin:0;
+	}
+	aside {
+		width:100%;
+
+	}
+	h4 {
+		font-size: 140%;
+	}
+	footer .one-third {
+		width:100%;
+		margin:0;
+	}
+	.social i{
+		font-size:245%;
+
+	}
+	#footer-third{
+		min-height:150px;
+		padding-bottom:10%;
+		border-bottom:1px solid #959595;
+	}
+	#footer-third-last{
+		margin-bottom:15%;
+	}
+}
+@media screen and (max-width:470px) {
+	h3 {
+		font-size:150%;
+	}
+	p{
+		font-size:100%;
+		margin:2%;
+
+	}
+	h4 {
+		font-size: 115%;
+	}
+}
+
+#chat {
+	background-color: #b64500;
+	color: black;
+	border: 1px;
+	text-align:center;
+	padding-right: 0px;
+	border-radius: 20px;
+	
+}
+#button1{
+	border-width: thick;
+	border-color: black;
+}
+
+

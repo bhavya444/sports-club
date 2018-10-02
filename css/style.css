@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+}
+
+.contentContainer {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.wrapper {
+  width: 400%;
+  height: 100%;
+  position: relative;
+  left: 0;
+  white-space: normal;
+  -webkit-transition: left 3s ease-in-out;
+}
+
+.bg {
+  height: 100%;
+  width: 25%;
+  float: left;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg.bg-1 {
+  background-image: url(/sportpics/basketball.jpg);
+  
+}
+
+.bg.bg-2 {
+  background-image: url(/sportpics/volleyball.jpg);
+}
+
+.bg.bg-3 {
+  background-image: url(/sportpics/tabletennis.jpg);
+}
+
+.bg.bg-4 {
+  background-image: url(/sportpics/basketball.jpg);
+}
+
+#navLinks {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+#navLinks ul {
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  margin-top: 6px;
+}
+
+#navLinks ul li {
+  float: left;
+  text-align: center;
+  margin: 10px;
+  list-style: none;
+  cursor: pointer;
+  background-color: none;
+  border: 1px solid #fff;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+#navLinks ul li:hover {
+  background-color: #eee;
+}
+
+#navLinks ul li.active {
+  background-color: #fff;
+  outline-width: 7px;
+}
+
+#navLinks ul li.active:hover {
+  background-color: #eee;
+}
+
+h1 {
+position: center relative;
+font-size:75px;
+padding-bottom:300px;
+font-family:'Bree Serif', serif;
+color: #b6c27d;
+font-weight:bold
+}
+
+
+
+ .btn {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-60%, -60%);
+    -ms-transform: translate(-60%, -60%);
+    background-color:black;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.login1{
+
+background-image: url(/sportpics/login.jpg);
+}
+
+ .btn:hover {
+    background-color:  #425976 ;
+}
+
+.button1 {
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.register1{
+
+background-image: url(/sportpics/floodlights.jpg) ;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+.button3 {
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button4 {
+    background-color:  #df9f2d ;
+    border: none;
+    color: white;
+    padding: 10px 25px; 
+    padding-left:20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-left:30px;
+    cursor: pointer;
+}
+
+.reset1{
+
+background-image: url(/sportpics/reset.jpg);
+background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
