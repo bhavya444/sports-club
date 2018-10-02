@@ -5,7 +5,7 @@ Sports Club website built using HTML, CSS, JAVASCRIPT and PHP.
 ![Screenshot](/sportsclubscreenshots/index.png)
 
 # Register Page
-![Screenshot](/sportsclubscreenshots/register.png)
+![Screenshot](/sportsclubscreenshots/signin.png)
 
 # Login Page
 ![Screenshot](/sportsclubscreenshots/login.png)
@@ -24,4 +24,21 @@ Sports Club website built using HTML, CSS, JAVASCRIPT and PHP.
 
 # Display Achievement Page
 ![Screenshot](/sportsclubscreenshots/displayachievement.png)
+
+# Statistics Page
+![Screenshot](/sportsclubscreenshots/analysis.png)
+
+# Other stuff Page
+![Screenshot](/sportsclubscreenshots/other.png)
+
+# Galary Page
+![Screenshot](/sportsclubscreenshots/galary.png)
+
+# Passed Events Page
+![Screenshot](/sportsclubscreenshots/passedevents.png)
+
+# Sports available Page
+![Screenshot](/sportsclubscreenshots/sportsavailable.png)
+
+
 
